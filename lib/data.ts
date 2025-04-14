@@ -1,13 +1,13 @@
 import React from "react";
-import corpcommentImg from "@/public/coconut.jpg";
-import rmtdevImg from "@/public/Indoore-plants.jpg";
-import AIRoom from "@/public/AIRoom.png";
-import wordanalyticsImg from "@/public/food-delivary.jpg";
-import passwordImg from "@/public/password-project.png";
-import dallImg from "@/public/Dall-E-small-a7397dd.webp";
-import adminImg from "@/public/admin-management.webp";
-import signalImg from "@/public/signal-clone.png";
-import netflixImg from "@/public/netflix.webp";
+import corpcommentImg from "@/public/projectfair.png";
+import rmtdevImg from "@/public/blog.png";
+import AIRoom from "@/public/leave2.png";
+import wordanalyticsImg from "@/public/aimock.png";
+
+
+
+
+
 import {
   FaReact,
   FaNodeJs,
@@ -38,6 +38,8 @@ import {
   SiMicrosoftazure,
   SiLeetcode,
   SiRedis,
+  SiPostman,
+  
 } from "react-icons/si";
 import { title } from "process";
 import { url } from "inspector";
@@ -71,131 +73,70 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer At Towner Solution PVT. LTD.",
-    location: "Bangalore, India",
+    title: "Full-Stack Developer Intern At Luminar Technohub.",
+    location: "Kochi, India",
     description:
-      "Currently working as a full-stack developer at Towner Solution. We are developing a B2B SaaS-based cab sector platform for the global market.",
+      "Currently working as a full-stack developer intern at luminar Technohub. We are developing full-stack applications for various clients across different domains.",
     icon: React.createElement(FaReact),
-    date: "Feb 2024 - present",
+    date: "Jan 2025 - present",
   },
   {
-    title: "Full-Stack Developer Bromag India",
-    location: "Chenai, India",
+    title: "Mern-Stack Developer Trainee At Luminar Technolab.",
+    location: "Kochi, India",
     description:
-      "I worked as a full-stack developer for 3 months in Bromag India Product based company. I developed A Complete working Food delivery web app with user, restaurant and kitchen sections. It has login, payment and reservation systems.",
+      "I trained as a full-stack developer for 8 months, during which I developed various full-stack applications. I have hands-on experience in JavaScript, React.js, Node.js, Express, and MongoDB.",
     icon: React.createElement(FaReact),
-    date: "Nov 2023 - Jan 2024",
+    date: "Nov 2023 - July 2024",
   },
   {
-    title: "Graduated Bootcamp",
-    location: "Calicut Kerala, India",
-    description:
-      "I did an internship at Calicut. I was a part of the member to up skill to the full stack. I learned about the complete technologies which are using in web development.",
+    title: "Freelance Web Developer",
+    location: "Remote, India",
+    description:"I worked as a freelance web developer and developed the Daakoaf website for a KSA client. The site was built to showcase their services with a responsive and user-friendly interface.",
     icon: React.createElement(FaReact),
-    date: "Feb 2023 - Oct 2023",
+    date: "April 2023 - Feb 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Food Delivery Web App",
+    title: "Ai Mock Interview App",
     description:
-      "Order food online with ease. Our app features user, restaurant, and kitchen sections, complete with login, payment, and reservation systems.",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
+      "AI-powered mock interview system that tailors Q&A to job roles and experience, aiding candidates and recruiters alike.",
+    tags: ["Next.js", "DizzleORM", "PostgreSQL", "Tailwind", "Gemini AI", "Clerk"],
     imageUrl: wordanalyticsImg,
-    url: "https://food-delivery-web-app.vercel.app/",
+    url: "https://next-hire-eight.vercel.app/",
   },
   {
-    title: "AI Room Redesigner",
+    title: "Smart Leave",
     description:
-      "Redesign your room effortlessly. Customize furniture, wall colors, and more to visualize your dream space.",
-    tags: ["Next.js", "MongoDB", "Tailwind", "Typescript", "Replicate"],
+      "Built a smart leave system to automate requests, approvals, and tracking for efficient leave management",
+    tags: ["React.js", "Node.js", "Bootstrap", "Express.js", "MongoDB", "JWT", "Postman"],
     imageUrl: AIRoom,
-    url: "https://artifex-ai-designs.netlify.app/",
+    url: "https://github.com/mhdnishadc/Leaveflow",
   },
   {
-    title: "Indoor Plants E-commerce Website",
+    title: "Blog Wise",
     description:
-      "Buy plants online with our e-commerce platform. Features payment gateway, analytics, and an admin panel.",
+      "Built a blog app for creating, editing, and managing posts with user authentication and commenting features.",
     tags: ["Node.js", "Express", "EJS", "Bootstrap", "MongoDB", "Razorpay"],
     imageUrl: rmtdevImg,
-    url: "https://olea-indoor-plants-shop.onrender.com",
+    url: "https://github.com/mhdnishadc",
   },
   {
-    title: "AI Recipe Generator",
+    title: "Project Fair",
     description:
-      "Discover new recipes with our AI-powered generator. Simply input your preferences, and get unique recipes instantly. Powered by OpenAI API.",
+      "Created a platform for developers to showcase projects with GitHub links, allowing users to view, search, and filter projects efficiently.",
     tags: [
       "React",
-      "OpenAI-API",
+      "Javascript",
       "MongoDB",
       "Tailwind",
       "Node.js",
       "Redux",
-      "Typescript",
+      "Express",
     ],
     imageUrl: corpcommentImg,
-    url: "https://coconut-client.vercel.app/login",
-  },
-  {
-    title: "DALL-E Image Generator",
-    description:
-      "Generate stunning images based on your input using OpenAI's DALL-E. Store and manage your creations easily.",
-    tags: [
-      "OpenAI-API",
-      "MongoDB",
-      "Node.js",
-      "Typescript",
-      "Repository Pattern",
-    ],
-    imageUrl: dallImg,
-    url: "https://dalle-image-generator.vercel.app/",
-  },
-  {
-    title: "Passvault Password Generator",
-    description:
-      "Create and store strong, custom passwords securely. Includes options for special characters, numbers, and custom lengths.",
-    tags: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Tailwind",
-      "Context API",
-      "Typescript",
-    ],
-    imageUrl: passwordImg,
-    url: "https://password-generator-gold-rho.vercel.app/",
-  },
-  {
-    title: "Signal Chat App Clone",
-    description:
-      "Chat with friends using our Signal app clone. Features a secure login system and real-time messaging.",
-    tags: [
-      "React",
-      "Node.js",
-      "Socket.io",
-      "MongoDB",
-      "Tailwind",
-      "Typescript",
-    ],
-    imageUrl: signalImg,
-    url: "https://github.com/JunaidAhammedU/Signal",
-  },
-  {
-    title: "Admin Management System",
-    description:
-      "Manage your admin tasks efficiently with our system. Includes RBAC, analytics, and a secure login system.",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
-    imageUrl: adminImg,
-    url: "https://olea-indoor-plants-shop.onrender.com/admin",
-  },
-  {
-    title: "Netflix Clone",
-    description:
-      "Enjoy movies and series with our Netflix clone. Features a user-friendly interface and secure login system.",
-    tags: ["React", "TMDB-API", "MongoDB", "Tailwind", "Typescript"],
-    imageUrl: netflixImg,
-    url: "https://netflix-clone-psi.vercel.app/",
+    url: "https://github.com/mhdnishadc/projectfair",
   },
 ] as const;
 
@@ -208,11 +149,11 @@ export const skillsData = [
   { name: "MongoDB", icon: React.createElement(SiMongodb) },
   { name: "PostgreSQL", icon: React.createElement(SiPostgresql) },
   { name: "Microservices", icon: null },
-  { name: "WebRTC", icon: React.createElement(SiWebrtc) },
+  // { name: "WebRTC", icon: React.createElement(SiWebrtc) },
   { name: "Docker", icon: React.createElement(FaDocker) },
   { name: "Socket.io", icon: React.createElement(SiSocketdotio) },
   { name: "Firebase", icon: React.createElement(SiFirebase) },
-  { name: "Azure", icon: React.createElement(SiMicrosoftazure) },
+  // { name: "Azure", icon: React.createElement(SiMicrosoftazure) },
   { name: "Leetcode", icon: React.createElement(SiLeetcode) },
   { name: "Redis", icon: React.createElement(SiRedis) },
   { name: "AWS", icon: React.createElement(FaAws) },
@@ -220,12 +161,13 @@ export const skillsData = [
   { name: "HTML", icon: React.createElement(FaHtml5) },
   { name: "CSS", icon: React.createElement(FaCss3Alt) },
   { name: "JavaScript", icon: React.createElement(SiJavascript) },
-  { name: "Testing Library", icon: React.createElement(SiJest) },
+  // { name: "Testing Library", icon: React.createElement(SiJest) },
   { name: "Redux", icon: React.createElement(SiRedux) },
   { name: "Git", icon: React.createElement(FaGit) },
   { name: "Tailwind", icon: React.createElement(SiTailwindcss) },
-  { name: "Prisma", icon: React.createElement(SiPrisma) },
+  // { name: "Prisma", icon: React.createElement(SiPrisma) },
   { name: "Bootstrap", icon: React.createElement(SiBootstrap) },
   { name: "Express", icon: React.createElement(SiExpress) },
-  { name: "Framer Motion", icon: React.createElement(SiFramer) },
+  // { name: "Framer Motion", icon: React.createElement(SiFramer) },
+  { name: "Postman", icon: React.createElement(SiPostman) },
 ] as const;
